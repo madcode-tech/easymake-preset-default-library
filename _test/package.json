@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "license": "MIT",
+  "name": "test_library",
+  "version": "0.0.1",
+  "description": "Test library",
+  "author": {
+    "name": "MAD Code: bizarre",
+    "email": "madcode.tech@gmail.com"
+  },
+  "engines": {
+    "node" : ">=7.1.0"
+  },
+  "main": "distributive/index.js",
+  "devDependencies": {
+    "easymake-preset-default-library": "file:../."
+  },
+  "config": {
+    "easymake": {
+      "preset": "easymake-preset-default-library"
+    }
+  },
+  "scripts": {
+    "help":                   "easymake --help",
+    "config-empty":           "easymake --config-empty",
+    "config-default":         "easymake --config-default",
+    "distributive":           "easymake --run distributive --production",
+    "development":            "easymake --run distributive --environment test",
+    "test-units":             "easymake --run test-units",
+    "test-units-production":  "easymake --run test-units --production",
+    "create-folders":         "easymake --run create-folders"
+  }
+}
