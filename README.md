@@ -1,6 +1,9 @@
 # easymake-preset-default-library
 ###### default preset for [easymake](https://github.com/madcode-tech/easymake) which helps to make library
 
+## documentation
+You can find documentation here https://github.com/madcode-tech/easymake/wiki
+
 ## preset uses:
 + coding
   + babel
