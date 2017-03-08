@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "easymake-preset-default-library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "easymake: default preset for make library",
   "keywords": "easymake preset library default taskrunner presets",
   "author": {
